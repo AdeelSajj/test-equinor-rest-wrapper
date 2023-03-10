@@ -18,7 +18,7 @@ public class GetGradeCatalogApi {
         for (int i = 0 ; i<arraySize ; i++)
         {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
-            System.out.println("JSON Object: "+jsonObject.toString(4)); 
+            System.out.println("JSON Object: "+jsonObject.toString(4));
         }
     }
 }
