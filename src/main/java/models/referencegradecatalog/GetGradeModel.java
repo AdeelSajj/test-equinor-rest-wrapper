@@ -45,6 +45,7 @@ public class GetGradeModel
     public HeatCapacity getHeatCapacity ()
     {
         return heatCapacity;
+
     }
 
     public void setHeatCapacity (HeatCapacity heatCapacity)

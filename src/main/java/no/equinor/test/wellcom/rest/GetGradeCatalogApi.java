@@ -21,12 +21,8 @@ public class GetGradeCatalogApi {
         assert response != null;
         JSONArray jsonArray = new JSONArray(response);
         int arraySize =  jsonArray.length();
-//        System.out.println("This is the size of array:" + arraySize);
         LOG.info("This is the size of array:" + arraySize);
-//        LOG.warn("This is the size of array:" + arraySize);
-//        LOG.debug("This is the size of array:" + arraySize);
-//        LOG.trace("This is the size of array:" + arraySize);
-//        LOG.info("Test");
+
         for (int i = 0 ; i<arraySize ; i++)
         {
             JSONObject jsonObject = jsonArray.getJSONObject(i);

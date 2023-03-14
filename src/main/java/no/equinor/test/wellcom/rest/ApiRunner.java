@@ -1,10 +1,6 @@
 package no.equinor.test.wellcom.rest;
 
 import authentication.Authenticate;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.junit.Test;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
@@ -15,7 +11,7 @@ import java.net.URL;
 
 public class ApiRunner {
     HttpsURLConnection connection = null;
-    int responseCode = 0;
+    public int responseCode = 0;
     String plannerCloudDevUrl = "https://plannerclouddev.wellcom.equinor.com/WellcomData/v1/";
 
     String plannerCloudDevUrl1 = "https://api-dev.gateway.equinor.com/wellcom-data/v1";
@@ -38,7 +34,6 @@ public class ApiRunner {
                 out.append(line);
             }
             response = out.toString();
-//            System.out.println(response);
         } catch (Exception e) {
 
         }
