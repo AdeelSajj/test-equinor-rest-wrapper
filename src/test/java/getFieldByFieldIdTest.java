@@ -11,7 +11,7 @@ public class getFieldByFieldIdTest {
     @Test
     public void getFieldByFieldIdTes() throws IOException, JSONException {
         String fieldId = "62215471";
-        String updateDate = "2021-12-01T09:32:09";
+        String updateDate = "2021-12-01T09:32:09       ";
         GetFieldByFieldIdApi getFieldByFieldIdApi = new GetFieldByFieldIdApi();
 
         JSONObject jsonObject = getFieldByFieldIdApi.getFieldByFieldId(fieldId);
