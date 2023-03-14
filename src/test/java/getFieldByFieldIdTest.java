@@ -10,7 +10,7 @@ import java.io.IOException;
 public class getFieldByFieldIdTest {
     @Test
     public void getFieldByFieldIdTes() throws IOException, JSONException {
-        String fieldId = "62215471";
+        String fieldId = "622154712";
         String updateDate = "2021-12-01T09:32:09";
         GetFieldByFieldIdApi getFieldByFieldIdApi = new GetFieldByFieldIdApi();
 
