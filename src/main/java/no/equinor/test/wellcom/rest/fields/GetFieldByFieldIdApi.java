@@ -1,5 +1,6 @@
-package no.equinor.test.wellcom.rest;
+package no.equinor.test.wellcom.rest.fields;
 
+import no.equinor.test.wellcom.rest.ApiRunner;
 import org.json.JSONException;
 import org.json.JSONObject;
 
