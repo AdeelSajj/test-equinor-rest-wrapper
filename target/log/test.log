@@ -2,3 +2,5 @@
 2023-03-10 17:22:16 INFO  GetGradeCatalogApi:25 - This is the size of array:137
 2023-03-10 17:23:02 INFO  GetGradeCatalogApi:25 - This is the size of array:137
 2023-03-10 17:23:22 INFO  GetGradeCatalogApi:25 - This is the size of array:137
+2023-03-14 12:30:07 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-14 12:30:07 INFO  getGradeTest:23 - The value of Density150C is: null

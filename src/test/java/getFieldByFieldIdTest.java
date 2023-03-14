@@ -1,6 +1,5 @@
 
-import models.referencegradecatalog.GradeDetailsController;
-import no.equinor.test.wellcom.rest.GetFieldByFieldIdApi;
+import no.equinor.test.wellcom.rest.fields.GetFieldByFieldIdApi;
 import models.fields.FieldDetailsController;
 import org.json.JSONException;
 import org.json.JSONObject;
