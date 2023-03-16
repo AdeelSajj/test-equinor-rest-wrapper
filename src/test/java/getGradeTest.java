@@ -1,3 +1,4 @@
+import models.referencegradecatalog.GetGradeModel;
 import no.equinor.test.wellcom.rest.referenceGradeCatalog.GetGradeApi;
 import models.referencegradecatalog.GradeDetailsController;
 import org.json.JSONException;
@@ -20,5 +21,6 @@ public class getGradeTest {
         jsonObject = getGradeApi.getGrade(gradeCatalogId);
         LOG.info("The value of unit for thermalexp150C is: " + GradeDetailsController.getGradeDetailsObject(jsonObject).getThermalExp150C().getUnit());
         LOG.info("The value of Density150C is: " + GradeDetailsController.getGradeDetailsObject(jsonObject).getDensity150());
+        LOG.info("The enum value for min yield unit is: " + GetGradeModel.MinYield.units.KSI);
     }
 }

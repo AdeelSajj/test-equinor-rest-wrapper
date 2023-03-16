@@ -4,3 +4,7 @@
 2023-03-10 17:23:22 INFO  GetGradeCatalogApi:25 - This is the size of array:137
 2023-03-14 12:30:07 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
 2023-03-14 12:30:07 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-16 12:23:18 INFO  GetGradeApi:17 - Response Code: 200
+2023-03-16 12:23:18 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-16 12:23:18 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-16 12:23:18 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI
