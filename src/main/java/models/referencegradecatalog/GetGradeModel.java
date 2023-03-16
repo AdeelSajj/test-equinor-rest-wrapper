@@ -38,6 +38,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+                KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
     private HeatCapacity heatCapacity;
@@ -77,6 +87,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            J_KG_C("J/kg C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -129,10 +149,17 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
-
-
-
 
     private ThermalExp500C thermalExp500C;
 
@@ -170,6 +197,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            ME_6_C("me-6/C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -223,6 +260,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            PERCENTAGE("%");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
     private String description;
@@ -275,6 +322,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            HRC("HRC");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
 
@@ -315,9 +372,17 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            GPA("Gpa");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
-
-
 
     private String density25;
 
@@ -380,6 +445,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            ME_6_C("me-6/C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
     private String poissonsRatio25;
@@ -431,9 +506,17 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            ME_6_C("me-6/C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
-
-
 
     private String gradeType;
 
@@ -484,6 +567,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            W_M_C("W/(m C)");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
     private YieldAt100C yieldAt100C;
@@ -522,6 +615,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -574,6 +677,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
 
@@ -613,6 +726,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -701,6 +824,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            PERCENTAGE("%");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
 
@@ -740,6 +873,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -781,6 +924,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            ME_6_C("me-6/C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 
@@ -834,6 +987,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            ME_6_C("me-6/C");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
 
@@ -873,6 +1036,16 @@ public class GetGradeModel
         {
             this.value = value;
         }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
+        }
     }
 
     private YieldAt250C yieldAt250C;
@@ -910,6 +1083,16 @@ public class GetGradeModel
         public void setValue (String value)
         {
             this.value = value;
+        }
+
+        public enum units {
+            KSI("KSI");
+
+            public String unit;
+
+            units(String unit) {
+                this.unit = unit;
+            }
         }
     }
 }
