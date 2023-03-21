@@ -8,3 +8,342 @@
 2023-03-16 12:23:18 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
 2023-03-16 12:23:18 INFO  getGradeTest:23 - The value of Density150C is: null
 2023-03-16 12:23:18 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI
+2023-03-21 09:56:43 INFO  GetGradeCatalogApi:24 - This is the size of array:137
+2023-03-21 12:02:01 INFO  GetGradeApi:18 - Response Code: 0
+2023-03-21 12:04:55 INFO  GetGradeApi:17 - Response Code: 200
+2023-03-21 12:04:55 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-21 12:04:55 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-21 12:04:55 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI
+2023-03-21 12:07:55 INFO  GetGradeCatalogApi:24 - This is the size of array:137
+2023-03-21 12:22:04 INFO  GetGradeCatalogApi:20 - Response Code: 200
+2023-03-21 12:23:28 INFO  GetGradeCatalogApi:20 - Response Code: 200
+2023-03-21 12:25:01 INFO  GetGradeCatalogApi:20 - Response Code: 200
+2023-03-21 12:28:25 INFO  GetGradeCatalogApi:20 - Response Code: 200
+2023-03-21 13:43:08 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 14:03:12 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 14:04:09 INFO  GetGradeCatalogApi:24 - This is the size of array:137
+2023-03-21 14:07:40 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 15:06:08 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 15:06:33 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 15:07:28 INFO  getFieldByFieldIdTest:20 - The value UpdateDate is: 2021-12-01T09:32:09
+2023-03-21 15:09:13 INFO  ApiRunner:45 - The response is empty
+2023-03-21 15:09:47 INFO  ApiRunner:45 - The response is empty: java.io.IOException: Server returned HTTP response code: 400 for URL: https://plannerclouddev.wellcom.equinor.com/WellcomData/v1//projects/:projectId/fluidvolumes?wellboreId=76031664
+2023-03-21 15:11:59 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:12:01 INFO  ApiRunner:45 - The response is empty: java.io.IOException: Server returned HTTP response code: 400 for URL: https://plannerclouddev.wellcom.equinor.com/WellcomData/v1//projects/:projectId/fluidvolumes?wellboreId=76031664
+2023-03-21 15:12:41 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:12:41 INFO  ApiRunner:45 - The response is empty: java.io.IOException: Server returned HTTP response code: 400 for URL: https://plannerclouddev.wellcom.equinor.com/WellcomData/v1//projects/:projectId/fluidvolumes
+2023-03-21 15:13:02 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:13:03 INFO  ApiRunner:45 - The response is empty: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api-dev.gateway.equinor.com/wellcom-data/v1/projects/:projectId/fluidvolumes
+2023-03-21 15:18:48 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:18:49 INFO  ApiRunner:45 - The response is empty: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api-dev.gateway.equinor.com/wellcom-data/v1/projects/94220804/fluidvolumes?wellboreId=76031664
+2023-03-21 15:19:06 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:19:37 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:22:08 INFO  FluidVolumeApi:18 - Response Code: 0
+2023-03-21 15:23:41 INFO  GetGradeApi:17 - Response Code: 200
+2023-03-21 15:23:41 INFO  GetGradeApi:22 - Response body: {
+    "minYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "heatCapacity": {
+        "unit": "J/kg C",
+        "value": 0
+    },
+    "density150": null,
+    "yieldAt500C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp500C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "qcDate": null,
+    "anisotropyHoop": {
+        "unit": "%",
+        "value": 0
+    },
+    "description": "25.03.2022: Set to \"not in use\" as this is a non-API (proprietary grade) of unknown origin. DJ EIane. ",
+    "maxHardness": {
+        "unit": "HRC",
+        "value": 0
+    },
+    "youngsModulus25": {
+        "unit": "Gpa",
+        "value": 0
+    },
+    "density25": null,
+    "gradeCatalogId": "X-80MO",
+    "thermalExp150C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "poissonsRatio25": 0,
+    "thermalExp100C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "gradeType": null,
+    "thermalConductivity": {
+        "unit": "W/(m C)",
+        "value": 0
+    },
+    "yieldAt100C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "id": "X-80MO",
+    "yieldAt150C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "minTensileStrength": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "availableForPWD": false,
+    "dataStatus": "NOT USED",
+    "rushmoreCode": null,
+    "notInUse": true,
+    "anisotropyRadial": {
+        "unit": "%",
+        "value": 0
+    },
+    "maxYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp250C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "anisotropyLongitudinal": null,
+    "thermalExp200C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "yieldAt200C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "yieldAt250C": {
+        "unit": "KSI",
+        "value": 0
+    }
+}
+2023-03-21 15:23:41 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-21 15:23:41 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-21 15:23:41 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI
+2023-03-21 15:24:03 INFO  GetGradeApi:17 - Response Code: 200
+2023-03-21 15:24:03 INFO  GetGradeApi:22 - Response body: {
+    "minYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "heatCapacity": {
+        "unit": "J/kg C",
+        "value": 0
+    },
+    "density150": null,
+    "yieldAt500C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp500C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "qcDate": null,
+    "anisotropyHoop": {
+        "unit": "%",
+        "value": 0
+    },
+    "description": "25.03.2022: Set to \"not in use\" as this is a non-API (proprietary grade) of unknown origin. DJ EIane. ",
+    "maxHardness": {
+        "unit": "HRC",
+        "value": 0
+    },
+    "youngsModulus25": {
+        "unit": "Gpa",
+        "value": 0
+    },
+    "density25": null,
+    "gradeCatalogId": "X-80MO",
+    "thermalExp150C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "poissonsRatio25": 0,
+    "thermalExp100C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "gradeType": null,
+    "thermalConductivity": {
+        "unit": "W/(m C)",
+        "value": 0
+    },
+    "yieldAt100C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "id": "X-80MO",
+    "yieldAt150C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "minTensileStrength": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "availableForPWD": false,
+    "dataStatus": "NOT USED",
+    "rushmoreCode": null,
+    "notInUse": true,
+    "anisotropyRadial": {
+        "unit": "%",
+        "value": 0
+    },
+    "maxYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp250C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "anisotropyLongitudinal": null,
+    "thermalExp200C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "yieldAt200C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "yieldAt250C": {
+        "unit": "KSI",
+        "value": 0
+    }
+}
+2023-03-21 15:24:03 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-21 15:24:03 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-21 15:24:03 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI
+2023-03-21 16:03:34 INFO  FluidVolumeApi:16 - Response Code: 0
+2023-03-21 16:03:49 INFO  FluidVolumeApi:16 - Response Code: 0
+2023-03-21 16:04:12 INFO  FluidVolumeApi:16 - Response Code: 0
+2023-03-21 16:06:01 INFO  FluidVolumeApi:16 - Response Code: 0
+2023-03-21 16:07:10 INFO  FluidVolumeApi:16 - Response Code: 0
+2023-03-21 16:07:13 INFO  ApiRunner:37 - Response Code: 200
+2023-03-21 16:09:53 INFO  ApiRunner:37 - Response Code: 200
+2023-03-21 16:09:53 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:40:21 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:40:54 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:41:36 INFO  FluidVolumeApi:17 - Response: []
+2023-03-21 16:41:36 INFO  FluidVolumeApi:18 - Response Code: 200
+2023-03-21 16:42:24 INFO  FluidVolumeApi:17 - Response: []
+2023-03-21 16:42:24 INFO  FluidVolumeApi:18 - Response Code: 200
+2023-03-21 16:42:24 INFO  FluidVolumeApi:21 - The response is empty
+2023-03-21 16:43:34 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:50:59 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:50:59 INFO  FluidVolumeApi:20 - The response is empty
+2023-03-21 16:51:31 INFO  FluidVolumeApi:17 - Response Code: 200
+2023-03-21 16:51:31 INFO  FluidVolumeApi:20 - The response is empty: []
+2023-03-21 16:59:58 INFO  ApiRunner:45 - Following exception is thrownjava.lang.ClassCastException: class com.nimbusds.oauth2.sdk.TokenErrorResponse cannot be cast to class com.nimbusds.oauth2.sdk.AccessTokenResponse (com.nimbusds.oauth2.sdk.TokenErrorResponse and com.nimbusds.oauth2.sdk.AccessTokenResponse are in unnamed module of loader 'app')
+2023-03-21 16:59:58 INFO  FluidVolumeApi:17 - Response Code: 0
+2023-03-21 17:15:32 INFO  ApiRunner:45 - Following exception is thrownjava.lang.ClassCastException: class com.nimbusds.oauth2.sdk.TokenErrorResponse cannot be cast to class com.nimbusds.oauth2.sdk.AccessTokenResponse (com.nimbusds.oauth2.sdk.TokenErrorResponse and com.nimbusds.oauth2.sdk.AccessTokenResponse are in unnamed module of loader 'app')
+2023-03-21 17:18:05 INFO  GetGradeApi:17 - Response Code: 200
+2023-03-21 17:18:05 INFO  GetGradeApi:22 - Response body: {
+    "minYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "heatCapacity": {
+        "unit": "J/kg C",
+        "value": 0
+    },
+    "density150": null,
+    "yieldAt500C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp500C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "qcDate": null,
+    "anisotropyHoop": {
+        "unit": "%",
+        "value": 0
+    },
+    "description": "25.03.2022: Set to \"not in use\" as this is a non-API (proprietary grade) of unknown origin. DJ EIane. ",
+    "maxHardness": {
+        "unit": "HRC",
+        "value": 0
+    },
+    "youngsModulus25": {
+        "unit": "Gpa",
+        "value": 0
+    },
+    "density25": null,
+    "gradeCatalogId": "X-80MO",
+    "thermalExp150C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "poissonsRatio25": 0,
+    "thermalExp100C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "gradeType": null,
+    "thermalConductivity": {
+        "unit": "W/(m C)",
+        "value": 0
+    },
+    "yieldAt100C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "id": "X-80MO",
+    "yieldAt150C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "minTensileStrength": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "availableForPWD": false,
+    "dataStatus": "NOT USED",
+    "rushmoreCode": null,
+    "notInUse": true,
+    "anisotropyRadial": {
+        "unit": "%",
+        "value": 0
+    },
+    "maxYield": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "thermalExp250C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "anisotropyLongitudinal": null,
+    "thermalExp200C": {
+        "unit": "me-6/C",
+        "value": 0
+    },
+    "yieldAt200C": {
+        "unit": "KSI",
+        "value": 0
+    },
+    "yieldAt250C": {
+        "unit": "KSI",
+        "value": 0
+    }
+}
+2023-03-21 17:18:05 INFO  getGradeTest:22 - The value of unit for thermalexp150C is: me-6/C
+2023-03-21 17:18:05 INFO  getGradeTest:23 - The value of Density150C is: null
+2023-03-21 17:18:05 INFO  getGradeTest:24 - The enum value for min yield unit is: KSI

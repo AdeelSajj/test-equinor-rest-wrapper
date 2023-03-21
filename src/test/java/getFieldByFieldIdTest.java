@@ -4,10 +4,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 public class getFieldByFieldIdTest {
-
+    private static final transient Logger LOG = LoggerFactory.getLogger(getFieldByFieldIdTest.class);
     @Test
     public void getFieldByFieldIdTes() throws IOException, JSONException {
         String fieldId = "62215471";
@@ -15,7 +17,7 @@ public class getFieldByFieldIdTest {
         GetFieldByFieldIdApi getFieldByFieldIdApi = new GetFieldByFieldIdApi();
 
         JSONObject jsonObject = getFieldByFieldIdApi.getFieldByFieldId(fieldId);
-        System.out.println("The value UpdateDate is: " + FieldDetailsController.getFieldDetailsObject(jsonObject).getUpdateDate());
+        LOG.info("The value UpdateDate is: " + FieldDetailsController.getFieldDetailsObject(jsonObject).getUpdateDate());
         Assert.assertEquals(FieldDetailsController.getFieldDetailsObject(jsonObject).getUpdateDate(), (updateDate));
 
     }

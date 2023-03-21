@@ -19,7 +19,7 @@ public class GetGradeApi {
         assert response != null;
         JSONArray jsonArray = new JSONArray(response);
         JSONObject jsonObject =  jsonArray.getJSONObject(0);
-        System.out.println("Response body: "+jsonObject.toString(4));
+        LOG.info("Response body: "+jsonObject.toString(4));
         return jsonObject;
     }
 }
