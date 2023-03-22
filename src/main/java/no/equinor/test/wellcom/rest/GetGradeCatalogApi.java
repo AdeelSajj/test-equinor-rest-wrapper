@@ -16,7 +16,7 @@ public class GetGradeCatalogApi {
 
         ApiRunner apiRunner = new ApiRunner();
         String response = apiRunner.runApi("references/gradecatalog");
-        System.out.println("Response Code: "+ apiRunner.responseCode);
+        LOG.info("Response Code: "+ apiRunner.responseCode);
 
         assert response != null;
         JSONArray jsonArray = new JSONArray(response);
@@ -26,7 +26,7 @@ public class GetGradeCatalogApi {
         for (int i = 0 ; i<arraySize ; i++)
         {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
-            System.out.println("JSON Object: "+jsonObject.toString(4));
+            LOG.info("JSON Object: "+jsonObject.toString(4));
         }
     }
 }
