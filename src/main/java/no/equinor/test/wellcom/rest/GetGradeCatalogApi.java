@@ -12,8 +12,6 @@ import java.io.IOException;
 public class GetGradeCatalogApi {
     private static final transient Logger LOG = LoggerFactory.getLogger(GetGradeCatalogApi.class);
     public void getGradeCatalog() throws IOException, JSONException {
-
-
         ApiRunner apiRunner = new ApiRunner();
         String response = apiRunner.runApi("references/gradecatalog");
         LOG.info("Response Code: "+ apiRunner.responseCode);
